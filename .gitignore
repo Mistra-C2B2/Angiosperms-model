@@ -1,0 +1,8 @@
+# Folders with large data
+BALTICSEA_MULTIYEAR_WAV_003_015/
+
+# Large geospatial/science files
+*.nc
+*.tif
+*.tiff
+clipped_grid*.geojson

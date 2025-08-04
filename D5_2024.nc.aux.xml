@@ -1,0 +1,472 @@
+<PAMDataset>
+  <Subdataset name="cdi_index">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="cdi_index#ancillary_variables">cdi_reference</MDI>
+        <MDI key="cdi_index#coordinates">lat lon</MDI>
+        <MDI key="cdi_index#grid_mapping">crs</MDI>
+        <MDI key="cdi_index#long_name">CDI index of this cell. matching CDI information is retrieved from cdi_reference variable</MDI>
+        <MDI key="cdi_index#_FillValue">-1</MDI>
+        <MDI key="crs#comment">see Appendix F of cf convention 1.6 </MDI>
+        <MDI key="crs#epsg_code">EPSG:4326</MDI>
+        <MDI key="crs#grid_mapping_name">latitude_longitude</MDI>
+        <MDI key="crs#inverse_flattening">298.257223563</MDI>
+        <MDI key="crs#long_name">grid mapping</MDI>
+        <MDI key="crs#semi_major_axis">6378137</MDI>
+        <MDI key="lat#axis">Y</MDI>
+        <MDI key="lat#long_name">latitude</MDI>
+        <MDI key="lat#sdn_parameter_name">Latitude north</MDI>
+        <MDI key="lat#sdn_parameter_urn">SDN:P01::ALATZZ01</MDI>
+        <MDI key="lat#sdn_uom_name">Degrees north</MDI>
+        <MDI key="lat#sdn_uom_urn">SDN:P06::DEGN</MDI>
+        <MDI key="lat#standard_name">latitude</MDI>
+        <MDI key="lat#units">degrees_north</MDI>
+        <MDI key="lat#_CoordinateAxisType">Lat</MDI>
+        <MDI key="lat#_FillValue">-nan(ind)</MDI>
+        <MDI key="lon#axis">X</MDI>
+        <MDI key="lon#long_name">longitude</MDI>
+        <MDI key="lon#sdn_parameter_name">Longitude east</MDI>
+        <MDI key="lon#sdn_parameter_urn">SDN:P01::ALONZZ01</MDI>
+        <MDI key="lon#sdn_uom_name">Degrees east</MDI>
+        <MDI key="lon#sdn_uom_urn">SDN:P06::DEGE</MDI>
+        <MDI key="lon#standard_name">longitude</MDI>
+        <MDI key="lon#units">degrees_east</MDI>
+        <MDI key="lon#_CoordinateAxisType">Lon</MDI>
+        <MDI key="lon#_FillValue">-nan(ind)</MDI>
+        <MDI key="NC_GLOBAL#comment">The data in the EMODnet Grid should not be used for navigation or any purpose relating to safety at sea.</MDI>
+        <MDI key="NC_GLOBAL#Conventions">SeaDataNet_1.0 CF1.6</MDI>
+        <MDI key="NC_GLOBAL#dtm_convention_version">1.0</MDI>
+        <MDI key="NC_GLOBAL#history">NetCDF file created with GGSgc NC_Makegrid version 1.7.0 (January 2025)</MDI>
+        <MDI key="NC_GLOBAL#institution">On behalf of the EMODnet project, https://emodnet.ec.europa.eu</MDI>
+        <MDI key="NC_GLOBAL#references">lastest release is DOI: https://doi.org/10.12770/cf51df64-56f9-4a99-b1aa-36b8d7b743a1</MDI>
+        <MDI key="NC_GLOBAL#source">source of the data can be found in the dataset or in the documentation available from  https://emodnet.ec.europa.eu/en/bathymetry</MDI>
+        <MDI key="NC_GLOBAL#title">The EMODnet Grid</MDI>
+      </Metadata>
+      <Metadata domain="GEOLOCATION">
+        <MDI key="SRS">GEOGCRS["unknown",DATUM["unnamed",ELLIPSOID["Spheroid",6378137,298.257223563,LENGTHUNIT["metre",1,ID["EPSG",9001]]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433,ID["EPSG",9122]]],CS[ellipsoidal,2],AXIS["latitude",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433,ID["EPSG",9122]]],AXIS["longitude",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433,ID["EPSG",9122]]]]</MDI>
+        <MDI key="X_DATASET">NETCDF:"C:\Users\PC\Documents\Ecole\2A\Stage_2A\RISE\Example\Angiosperms-model\D5_2024.nc":lon</MDI>
+        <MDI key="X_BAND">1</MDI>
+        <MDI key="Y_DATASET">NETCDF:"C:\Users\PC\Documents\Ecole\2A\Stage_2A\RISE\Example\Angiosperms-model\D5_2024.nc":lat</MDI>
+        <MDI key="Y_BAND">1</MDI>
+        <MDI key="PIXEL_OFFSET">0</MDI>
+        <MDI key="PIXEL_STEP">1</MDI>
+        <MDI key="LINE_OFFSET">0</MDI>
+        <MDI key="LINE_STEP">1</MDI>
+        <MDI key="GEOREFERENCING_CONVENTION">PIXEL_CENTER</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">0</MDI>
+          <MDI key="STATISTICS_MAXIMUM">22062</MDI>
+          <MDI key="STATISTICS_MEAN">10821.655793455</MDI>
+          <MDI key="STATISTICS_STDDEV">6891.8917069723</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="elevation">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="crs#comment">see Appendix F of cf convention 1.6 </MDI>
+        <MDI key="crs#epsg_code">EPSG:4326</MDI>
+        <MDI key="crs#grid_mapping_name">latitude_longitude</MDI>
+        <MDI key="crs#inverse_flattening">298.257223563</MDI>
+        <MDI key="crs#long_name">grid mapping</MDI>
+        <MDI key="crs#semi_major_axis">6378137</MDI>
+        <MDI key="elevation#comment">Gridded data are stored as a two-dimensional array of float values of elevation in metres, with negative values for bathymetric depths below the reference level and positive values for topographic heights above the reference level </MDI>
+        <MDI key="elevation#coordinates">lat lon</MDI>
+        <MDI key="elevation#grid_mapping">crs</MDI>
+        <MDI key="elevation#long_name">Elevation relative to Lowest Astronomical Tide datum</MDI>
+        <MDI key="elevation#sdn_parameter_name">Elevation relative to Lowest Astronomical Tide datum</MDI>
+        <MDI key="elevation#sdn_parameter_urn">SDN:P01::HGHTALAT</MDI>
+        <MDI key="elevation#sdn_uom_name">Metres</MDI>
+        <MDI key="elevation#sdn_uom_urn">SDN:P06::ULAA</MDI>
+        <MDI key="elevation#standard_name">depth</MDI>
+        <MDI key="elevation#units">m</MDI>
+        <MDI key="elevation#_FillValue">-nan(ind)</MDI>
+        <MDI key="lat#axis">Y</MDI>
+        <MDI key="lat#long_name">latitude</MDI>
+        <MDI key="lat#sdn_parameter_name">Latitude north</MDI>
+        <MDI key="lat#sdn_parameter_urn">SDN:P01::ALATZZ01</MDI>
+        <MDI key="lat#sdn_uom_name">Degrees north</MDI>
+        <MDI key="lat#sdn_uom_urn">SDN:P06::DEGN</MDI>
+        <MDI key="lat#standard_name">latitude</MDI>
+        <MDI key="lat#units">degrees_north</MDI>
+        <MDI key="lat#_CoordinateAxisType">Lat</MDI>
+        <MDI key="lat#_FillValue">-nan(ind)</MDI>
+        <MDI key="lon#axis">X</MDI>
+        <MDI key="lon#long_name">longitude</MDI>
+        <MDI key="lon#sdn_parameter_name">Longitude east</MDI>
+        <MDI key="lon#sdn_parameter_urn">SDN:P01::ALONZZ01</MDI>
+        <MDI key="lon#sdn_uom_name">Degrees east</MDI>
+        <MDI key="lon#sdn_uom_urn">SDN:P06::DEGE</MDI>
+        <MDI key="lon#standard_name">longitude</MDI>
+        <MDI key="lon#units">degrees_east</MDI>
+        <MDI key="lon#_CoordinateAxisType">Lon</MDI>
+        <MDI key="lon#_FillValue">-nan(ind)</MDI>
+        <MDI key="NC_GLOBAL#comment">The data in the EMODnet Grid should not be used for navigation or any purpose relating to safety at sea.</MDI>
+        <MDI key="NC_GLOBAL#Conventions">SeaDataNet_1.0 CF1.6</MDI>
+        <MDI key="NC_GLOBAL#dtm_convention_version">1.0</MDI>
+        <MDI key="NC_GLOBAL#history">NetCDF file created with GGSgc NC_Makegrid version 1.7.0 (January 2025)</MDI>
+        <MDI key="NC_GLOBAL#institution">On behalf of the EMODnet project, https://emodnet.ec.europa.eu</MDI>
+        <MDI key="NC_GLOBAL#references">lastest release is DOI: https://doi.org/10.12770/cf51df64-56f9-4a99-b1aa-36b8d7b743a1</MDI>
+        <MDI key="NC_GLOBAL#source">source of the data can be found in the dataset or in the documentation available from  https://emodnet.ec.europa.eu/en/bathymetry</MDI>
+        <MDI key="NC_GLOBAL#title">The EMODnet Grid</MDI>
+      </Metadata>
+      <Metadata domain="GEOLOCATION">
+        <MDI key="SRS">GEOGCRS["unknown",DATUM["unnamed",ELLIPSOID["Spheroid",6378137,298.257223563,LENGTHUNIT["metre",1,ID["EPSG",9001]]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433,ID["EPSG",9122]]],CS[ellipsoidal,2],AXIS["latitude",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433,ID["EPSG",9122]]],AXIS["longitude",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433,ID["EPSG",9122]]]]</MDI>
+        <MDI key="X_DATASET">NETCDF:"C:\Users\PC\Documents\Ecole\2A\Stage_2A\RISE\Example\Angiosperms-model\D5_2024.nc":lon</MDI>
+        <MDI key="X_BAND">1</MDI>
+        <MDI key="Y_DATASET">NETCDF:"C:\Users\PC\Documents\Ecole\2A\Stage_2A\RISE\Example\Angiosperms-model\D5_2024.nc":lat</MDI>
+        <MDI key="Y_BAND">1</MDI>
+        <MDI key="PIXEL_OFFSET">0</MDI>
+        <MDI key="PIXEL_STEP">1</MDI>
+        <MDI key="LINE_OFFSET">0</MDI>
+        <MDI key="LINE_STEP">1</MDI>
+        <MDI key="GEOREFERENCING_CONVENTION">PIXEL_CENTER</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">-1257.6859130859</MDI>
+          <MDI key="STATISTICS_MAXIMUM">17.370000839233</MDI>
+          <MDI key="STATISTICS_MEAN">-160.12198372158</MDI>
+          <MDI key="STATISTICS_STDDEV">162.73833956709</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="elevation_max">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="crs#comment">see Appendix F of cf convention 1.6 </MDI>
+        <MDI key="crs#epsg_code">EPSG:4326</MDI>
+        <MDI key="crs#grid_mapping_name">latitude_longitude</MDI>
+        <MDI key="crs#inverse_flattening">298.257223563</MDI>
+        <MDI key="crs#long_name">grid mapping</MDI>
+        <MDI key="crs#semi_major_axis">6378137</MDI>
+        <MDI key="elevation_max#coordinates">lat lon</MDI>
+        <MDI key="elevation_max#grid_mapping">crs</MDI>
+        <MDI key="elevation_max#long_name">max elevation value over a cell, relative to Lowest Astronomical Tide</MDI>
+        <MDI key="elevation_max#sdn_uom_name">Metres</MDI>
+        <MDI key="elevation_max#sdn_uom_urn">SDN:P06::ULAA</MDI>
+        <MDI key="elevation_max#units">m</MDI>
+        <MDI key="elevation_max#_FillValue">-nan(ind)</MDI>
+        <MDI key="lat#axis">Y</MDI>
+        <MDI key="lat#long_name">latitude</MDI>
+        <MDI key="lat#sdn_parameter_name">Latitude north</MDI>
+        <MDI key="lat#sdn_parameter_urn">SDN:P01::ALATZZ01</MDI>
+        <MDI key="lat#sdn_uom_name">Degrees north</MDI>
+        <MDI key="lat#sdn_uom_urn">SDN:P06::DEGN</MDI>
+        <MDI key="lat#standard_name">latitude</MDI>
+        <MDI key="lat#units">degrees_north</MDI>
+        <MDI key="lat#_CoordinateAxisType">Lat</MDI>
+        <MDI key="lat#_FillValue">-nan(ind)</MDI>
+        <MDI key="lon#axis">X</MDI>
+        <MDI key="lon#long_name">longitude</MDI>
+        <MDI key="lon#sdn_parameter_name">Longitude east</MDI>
+        <MDI key="lon#sdn_parameter_urn">SDN:P01::ALONZZ01</MDI>
+        <MDI key="lon#sdn_uom_name">Degrees east</MDI>
+        <MDI key="lon#sdn_uom_urn">SDN:P06::DEGE</MDI>
+        <MDI key="lon#standard_name">longitude</MDI>
+        <MDI key="lon#units">degrees_east</MDI>
+        <MDI key="lon#_CoordinateAxisType">Lon</MDI>
+        <MDI key="lon#_FillValue">-nan(ind)</MDI>
+        <MDI key="NC_GLOBAL#comment">The data in the EMODnet Grid should not be used for navigation or any purpose relating to safety at sea.</MDI>
+        <MDI key="NC_GLOBAL#Conventions">SeaDataNet_1.0 CF1.6</MDI>
+        <MDI key="NC_GLOBAL#dtm_convention_version">1.0</MDI>
+        <MDI key="NC_GLOBAL#history">NetCDF file created with GGSgc NC_Makegrid version 1.7.0 (January 2025)</MDI>
+        <MDI key="NC_GLOBAL#institution">On behalf of the EMODnet project, https://emodnet.ec.europa.eu</MDI>
+        <MDI key="NC_GLOBAL#references">lastest release is DOI: https://doi.org/10.12770/cf51df64-56f9-4a99-b1aa-36b8d7b743a1</MDI>
+        <MDI key="NC_GLOBAL#source">source of the data can be found in the dataset or in the documentation available from  https://emodnet.ec.europa.eu/en/bathymetry</MDI>
+        <MDI key="NC_GLOBAL#title">The EMODnet Grid</MDI>
+      </Metadata>
+      <Metadata domain="GEOLOCATION">
+        <MDI key="SRS">GEOGCRS["unknown",DATUM["unnamed",ELLIPSOID["Spheroid",6378137,298.257223563,LENGTHUNIT["metre",1,ID["EPSG",9001]]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433,ID["EPSG",9122]]],CS[ellipsoidal,2],AXIS["latitude",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433,ID["EPSG",9122]]],AXIS["longitude",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433,ID["EPSG",9122]]]]</MDI>
+        <MDI key="X_DATASET">NETCDF:"C:\Users\PC\Documents\Ecole\2A\Stage_2A\RISE\Example\Angiosperms-model\D5_2024.nc":lon</MDI>
+        <MDI key="X_BAND">1</MDI>
+        <MDI key="Y_DATASET">NETCDF:"C:\Users\PC\Documents\Ecole\2A\Stage_2A\RISE\Example\Angiosperms-model\D5_2024.nc":lat</MDI>
+        <MDI key="Y_BAND">1</MDI>
+        <MDI key="PIXEL_OFFSET">0</MDI>
+        <MDI key="PIXEL_STEP">1</MDI>
+        <MDI key="LINE_OFFSET">0</MDI>
+        <MDI key="LINE_STEP">1</MDI>
+        <MDI key="GEOREFERENCING_CONVENTION">PIXEL_CENTER</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">-1257.6859130859</MDI>
+          <MDI key="STATISTICS_MAXIMUM">0.5</MDI>
+          <MDI key="STATISTICS_MEAN">-114.88306901375</MDI>
+          <MDI key="STATISTICS_STDDEV">139.90687541478</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="elevation_min">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="crs#comment">see Appendix F of cf convention 1.6 </MDI>
+        <MDI key="crs#epsg_code">EPSG:4326</MDI>
+        <MDI key="crs#grid_mapping_name">latitude_longitude</MDI>
+        <MDI key="crs#inverse_flattening">298.257223563</MDI>
+        <MDI key="crs#long_name">grid mapping</MDI>
+        <MDI key="crs#semi_major_axis">6378137</MDI>
+        <MDI key="elevation_min#coordinates">lat lon</MDI>
+        <MDI key="elevation_min#grid_mapping">crs</MDI>
+        <MDI key="elevation_min#long_name">min elevation value over a cell, relative to Lowest Astronomical Tide</MDI>
+        <MDI key="elevation_min#sdn_uom_name">Metres</MDI>
+        <MDI key="elevation_min#sdn_uom_urn">SDN:P06::ULAA</MDI>
+        <MDI key="elevation_min#units">m</MDI>
+        <MDI key="elevation_min#_FillValue">-nan(ind)</MDI>
+        <MDI key="lat#axis">Y</MDI>
+        <MDI key="lat#long_name">latitude</MDI>
+        <MDI key="lat#sdn_parameter_name">Latitude north</MDI>
+        <MDI key="lat#sdn_parameter_urn">SDN:P01::ALATZZ01</MDI>
+        <MDI key="lat#sdn_uom_name">Degrees north</MDI>
+        <MDI key="lat#sdn_uom_urn">SDN:P06::DEGN</MDI>
+        <MDI key="lat#standard_name">latitude</MDI>
+        <MDI key="lat#units">degrees_north</MDI>
+        <MDI key="lat#_CoordinateAxisType">Lat</MDI>
+        <MDI key="lat#_FillValue">-nan(ind)</MDI>
+        <MDI key="lon#axis">X</MDI>
+        <MDI key="lon#long_name">longitude</MDI>
+        <MDI key="lon#sdn_parameter_name">Longitude east</MDI>
+        <MDI key="lon#sdn_parameter_urn">SDN:P01::ALONZZ01</MDI>
+        <MDI key="lon#sdn_uom_name">Degrees east</MDI>
+        <MDI key="lon#sdn_uom_urn">SDN:P06::DEGE</MDI>
+        <MDI key="lon#standard_name">longitude</MDI>
+        <MDI key="lon#units">degrees_east</MDI>
+        <MDI key="lon#_CoordinateAxisType">Lon</MDI>
+        <MDI key="lon#_FillValue">-nan(ind)</MDI>
+        <MDI key="NC_GLOBAL#comment">The data in the EMODnet Grid should not be used for navigation or any purpose relating to safety at sea.</MDI>
+        <MDI key="NC_GLOBAL#Conventions">SeaDataNet_1.0 CF1.6</MDI>
+        <MDI key="NC_GLOBAL#dtm_convention_version">1.0</MDI>
+        <MDI key="NC_GLOBAL#history">NetCDF file created with GGSgc NC_Makegrid version 1.7.0 (January 2025)</MDI>
+        <MDI key="NC_GLOBAL#institution">On behalf of the EMODnet project, https://emodnet.ec.europa.eu</MDI>
+        <MDI key="NC_GLOBAL#references">lastest release is DOI: https://doi.org/10.12770/cf51df64-56f9-4a99-b1aa-36b8d7b743a1</MDI>
+        <MDI key="NC_GLOBAL#source">source of the data can be found in the dataset or in the documentation available from  https://emodnet.ec.europa.eu/en/bathymetry</MDI>
+        <MDI key="NC_GLOBAL#title">The EMODnet Grid</MDI>
+      </Metadata>
+      <Metadata domain="GEOLOCATION">
+        <MDI key="SRS">GEOGCRS["unknown",DATUM["unnamed",ELLIPSOID["Spheroid",6378137,298.257223563,LENGTHUNIT["metre",1,ID["EPSG",9001]]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433,ID["EPSG",9122]]],CS[ellipsoidal,2],AXIS["latitude",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433,ID["EPSG",9122]]],AXIS["longitude",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433,ID["EPSG",9122]]]]</MDI>
+        <MDI key="X_DATASET">NETCDF:"C:\Users\PC\Documents\Ecole\2A\Stage_2A\RISE\Example\Angiosperms-model\D5_2024.nc":lon</MDI>
+        <MDI key="X_BAND">1</MDI>
+        <MDI key="Y_DATASET">NETCDF:"C:\Users\PC\Documents\Ecole\2A\Stage_2A\RISE\Example\Angiosperms-model\D5_2024.nc":lat</MDI>
+        <MDI key="Y_BAND">1</MDI>
+        <MDI key="PIXEL_OFFSET">0</MDI>
+        <MDI key="PIXEL_STEP">1</MDI>
+        <MDI key="LINE_OFFSET">0</MDI>
+        <MDI key="LINE_STEP">1</MDI>
+        <MDI key="GEOREFERENCING_CONVENTION">PIXEL_CENTER</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">-1257.6859130859</MDI>
+          <MDI key="STATISTICS_MAXIMUM">0.10000000149012</MDI>
+          <MDI key="STATISTICS_MEAN">-114.96359687034</MDI>
+          <MDI key="STATISTICS_STDDEV">139.95647843232</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="interpolation_flag">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="crs#comment">see Appendix F of cf convention 1.6 </MDI>
+        <MDI key="crs#epsg_code">EPSG:4326</MDI>
+        <MDI key="crs#grid_mapping_name">latitude_longitude</MDI>
+        <MDI key="crs#inverse_flattening">298.257223563</MDI>
+        <MDI key="crs#long_name">grid mapping</MDI>
+        <MDI key="crs#semi_major_axis">6378137</MDI>
+        <MDI key="interpolation_flag#coordinates">lat lon</MDI>
+        <MDI key="interpolation_flag#flag_meaning">not_interpolated interpolated</MDI>
+        <MDI key="interpolation_flag#flag_values">{0,1}</MDI>
+        <MDI key="interpolation_flag#grid_mapping">crs</MDI>
+        <MDI key="interpolation_flag#long_name">Indicator of cell processed as extrapolation of the neighbouring cells (absence of real soundings data)</MDI>
+        <MDI key="interpolation_flag#valid_range">{0,1}</MDI>
+        <MDI key="interpolation_flag#_FillValue">127</MDI>
+        <MDI key="lat#axis">Y</MDI>
+        <MDI key="lat#long_name">latitude</MDI>
+        <MDI key="lat#sdn_parameter_name">Latitude north</MDI>
+        <MDI key="lat#sdn_parameter_urn">SDN:P01::ALATZZ01</MDI>
+        <MDI key="lat#sdn_uom_name">Degrees north</MDI>
+        <MDI key="lat#sdn_uom_urn">SDN:P06::DEGN</MDI>
+        <MDI key="lat#standard_name">latitude</MDI>
+        <MDI key="lat#units">degrees_north</MDI>
+        <MDI key="lat#_CoordinateAxisType">Lat</MDI>
+        <MDI key="lat#_FillValue">-nan(ind)</MDI>
+        <MDI key="lon#axis">X</MDI>
+        <MDI key="lon#long_name">longitude</MDI>
+        <MDI key="lon#sdn_parameter_name">Longitude east</MDI>
+        <MDI key="lon#sdn_parameter_urn">SDN:P01::ALONZZ01</MDI>
+        <MDI key="lon#sdn_uom_name">Degrees east</MDI>
+        <MDI key="lon#sdn_uom_urn">SDN:P06::DEGE</MDI>
+        <MDI key="lon#standard_name">longitude</MDI>
+        <MDI key="lon#units">degrees_east</MDI>
+        <MDI key="lon#_CoordinateAxisType">Lon</MDI>
+        <MDI key="lon#_FillValue">-nan(ind)</MDI>
+        <MDI key="NC_GLOBAL#comment">The data in the EMODnet Grid should not be used for navigation or any purpose relating to safety at sea.</MDI>
+        <MDI key="NC_GLOBAL#Conventions">SeaDataNet_1.0 CF1.6</MDI>
+        <MDI key="NC_GLOBAL#dtm_convention_version">1.0</MDI>
+        <MDI key="NC_GLOBAL#history">NetCDF file created with GGSgc NC_Makegrid version 1.7.0 (January 2025)</MDI>
+        <MDI key="NC_GLOBAL#institution">On behalf of the EMODnet project, https://emodnet.ec.europa.eu</MDI>
+        <MDI key="NC_GLOBAL#references">lastest release is DOI: https://doi.org/10.12770/cf51df64-56f9-4a99-b1aa-36b8d7b743a1</MDI>
+        <MDI key="NC_GLOBAL#source">source of the data can be found in the dataset or in the documentation available from  https://emodnet.ec.europa.eu/en/bathymetry</MDI>
+        <MDI key="NC_GLOBAL#title">The EMODnet Grid</MDI>
+      </Metadata>
+      <Metadata domain="GEOLOCATION">
+        <MDI key="SRS">GEOGCRS["unknown",DATUM["unnamed",ELLIPSOID["Spheroid",6378137,298.257223563,LENGTHUNIT["metre",1,ID["EPSG",9001]]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433,ID["EPSG",9122]]],CS[ellipsoidal,2],AXIS["latitude",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433,ID["EPSG",9122]]],AXIS["longitude",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433,ID["EPSG",9122]]]]</MDI>
+        <MDI key="X_DATASET">NETCDF:"C:\Users\PC\Documents\Ecole\2A\Stage_2A\RISE\Example\Angiosperms-model\D5_2024.nc":lon</MDI>
+        <MDI key="X_BAND">1</MDI>
+        <MDI key="Y_DATASET">NETCDF:"C:\Users\PC\Documents\Ecole\2A\Stage_2A\RISE\Example\Angiosperms-model\D5_2024.nc":lat</MDI>
+        <MDI key="Y_BAND">1</MDI>
+        <MDI key="PIXEL_OFFSET">0</MDI>
+        <MDI key="PIXEL_STEP">1</MDI>
+        <MDI key="LINE_OFFSET">0</MDI>
+        <MDI key="LINE_STEP">1</MDI>
+        <MDI key="GEOREFERENCING_CONVENTION">PIXEL_CENTER</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">0</MDI>
+          <MDI key="STATISTICS_MAXIMUM">1</MDI>
+          <MDI key="STATISTICS_MEAN">0.5947919408173</MDI>
+          <MDI key="STATISTICS_STDDEV">0.49093226412212</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="stdev">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="crs#comment">see Appendix F of cf convention 1.6 </MDI>
+        <MDI key="crs#epsg_code">EPSG:4326</MDI>
+        <MDI key="crs#grid_mapping_name">latitude_longitude</MDI>
+        <MDI key="crs#inverse_flattening">298.257223563</MDI>
+        <MDI key="crs#long_name">grid mapping</MDI>
+        <MDI key="crs#semi_major_axis">6378137</MDI>
+        <MDI key="lat#axis">Y</MDI>
+        <MDI key="lat#long_name">latitude</MDI>
+        <MDI key="lat#sdn_parameter_name">Latitude north</MDI>
+        <MDI key="lat#sdn_parameter_urn">SDN:P01::ALATZZ01</MDI>
+        <MDI key="lat#sdn_uom_name">Degrees north</MDI>
+        <MDI key="lat#sdn_uom_urn">SDN:P06::DEGN</MDI>
+        <MDI key="lat#standard_name">latitude</MDI>
+        <MDI key="lat#units">degrees_north</MDI>
+        <MDI key="lat#_CoordinateAxisType">Lat</MDI>
+        <MDI key="lat#_FillValue">-nan(ind)</MDI>
+        <MDI key="lon#axis">X</MDI>
+        <MDI key="lon#long_name">longitude</MDI>
+        <MDI key="lon#sdn_parameter_name">Longitude east</MDI>
+        <MDI key="lon#sdn_parameter_urn">SDN:P01::ALONZZ01</MDI>
+        <MDI key="lon#sdn_uom_name">Degrees east</MDI>
+        <MDI key="lon#sdn_uom_urn">SDN:P06::DEGE</MDI>
+        <MDI key="lon#standard_name">longitude</MDI>
+        <MDI key="lon#units">degrees_east</MDI>
+        <MDI key="lon#_CoordinateAxisType">Lon</MDI>
+        <MDI key="lon#_FillValue">-nan(ind)</MDI>
+        <MDI key="NC_GLOBAL#comment">The data in the EMODnet Grid should not be used for navigation or any purpose relating to safety at sea.</MDI>
+        <MDI key="NC_GLOBAL#Conventions">SeaDataNet_1.0 CF1.6</MDI>
+        <MDI key="NC_GLOBAL#dtm_convention_version">1.0</MDI>
+        <MDI key="NC_GLOBAL#history">NetCDF file created with GGSgc NC_Makegrid version 1.7.0 (January 2025)</MDI>
+        <MDI key="NC_GLOBAL#institution">On behalf of the EMODnet project, https://emodnet.ec.europa.eu</MDI>
+        <MDI key="NC_GLOBAL#references">lastest release is DOI: https://doi.org/10.12770/cf51df64-56f9-4a99-b1aa-36b8d7b743a1</MDI>
+        <MDI key="NC_GLOBAL#source">source of the data can be found in the dataset or in the documentation available from  https://emodnet.ec.europa.eu/en/bathymetry</MDI>
+        <MDI key="NC_GLOBAL#title">The EMODnet Grid</MDI>
+        <MDI key="stdev#coordinates">lat lon</MDI>
+        <MDI key="stdev#grid_mapping">crs</MDI>
+        <MDI key="stdev#long_name">Standard Deviation of elevation data over cell</MDI>
+        <MDI key="stdev#sdn_uom_name">Metres</MDI>
+        <MDI key="stdev#sdn_uom_urn">SDN:P06::ULAA</MDI>
+        <MDI key="stdev#units">m</MDI>
+        <MDI key="stdev#_FillValue">-nan(ind)</MDI>
+      </Metadata>
+      <Metadata domain="GEOLOCATION">
+        <MDI key="SRS">GEOGCRS["unknown",DATUM["unnamed",ELLIPSOID["Spheroid",6378137,298.257223563,LENGTHUNIT["metre",1,ID["EPSG",9001]]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433,ID["EPSG",9122]]],CS[ellipsoidal,2],AXIS["latitude",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433,ID["EPSG",9122]]],AXIS["longitude",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433,ID["EPSG",9122]]]]</MDI>
+        <MDI key="X_DATASET">NETCDF:"C:\Users\PC\Documents\Ecole\2A\Stage_2A\RISE\Example\Angiosperms-model\D5_2024.nc":lon</MDI>
+        <MDI key="X_BAND">1</MDI>
+        <MDI key="Y_DATASET">NETCDF:"C:\Users\PC\Documents\Ecole\2A\Stage_2A\RISE\Example\Angiosperms-model\D5_2024.nc":lat</MDI>
+        <MDI key="Y_BAND">1</MDI>
+        <MDI key="PIXEL_OFFSET">0</MDI>
+        <MDI key="PIXEL_STEP">1</MDI>
+        <MDI key="LINE_OFFSET">0</MDI>
+        <MDI key="LINE_STEP">1</MDI>
+        <MDI key="GEOREFERENCING_CONVENTION">PIXEL_CENTER</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">0</MDI>
+          <MDI key="STATISTICS_MAXIMUM">98.199996948242</MDI>
+          <MDI key="STATISTICS_MEAN">0.023205124527794</MDI>
+          <MDI key="STATISTICS_STDDEV">0.41604267175526</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="value_count">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="crs#comment">see Appendix F of cf convention 1.6 </MDI>
+        <MDI key="crs#epsg_code">EPSG:4326</MDI>
+        <MDI key="crs#grid_mapping_name">latitude_longitude</MDI>
+        <MDI key="crs#inverse_flattening">298.257223563</MDI>
+        <MDI key="crs#long_name">grid mapping</MDI>
+        <MDI key="crs#semi_major_axis">6378137</MDI>
+        <MDI key="lat#axis">Y</MDI>
+        <MDI key="lat#long_name">latitude</MDI>
+        <MDI key="lat#sdn_parameter_name">Latitude north</MDI>
+        <MDI key="lat#sdn_parameter_urn">SDN:P01::ALATZZ01</MDI>
+        <MDI key="lat#sdn_uom_name">Degrees north</MDI>
+        <MDI key="lat#sdn_uom_urn">SDN:P06::DEGN</MDI>
+        <MDI key="lat#standard_name">latitude</MDI>
+        <MDI key="lat#units">degrees_north</MDI>
+        <MDI key="lat#_CoordinateAxisType">Lat</MDI>
+        <MDI key="lat#_FillValue">-nan(ind)</MDI>
+        <MDI key="lon#axis">X</MDI>
+        <MDI key="lon#long_name">longitude</MDI>
+        <MDI key="lon#sdn_parameter_name">Longitude east</MDI>
+        <MDI key="lon#sdn_parameter_urn">SDN:P01::ALONZZ01</MDI>
+        <MDI key="lon#sdn_uom_name">Degrees east</MDI>
+        <MDI key="lon#sdn_uom_urn">SDN:P06::DEGE</MDI>
+        <MDI key="lon#standard_name">longitude</MDI>
+        <MDI key="lon#units">degrees_east</MDI>
+        <MDI key="lon#_CoordinateAxisType">Lon</MDI>
+        <MDI key="lon#_FillValue">-nan(ind)</MDI>
+        <MDI key="NC_GLOBAL#comment">The data in the EMODnet Grid should not be used for navigation or any purpose relating to safety at sea.</MDI>
+        <MDI key="NC_GLOBAL#Conventions">SeaDataNet_1.0 CF1.6</MDI>
+        <MDI key="NC_GLOBAL#dtm_convention_version">1.0</MDI>
+        <MDI key="NC_GLOBAL#history">NetCDF file created with GGSgc NC_Makegrid version 1.7.0 (January 2025)</MDI>
+        <MDI key="NC_GLOBAL#institution">On behalf of the EMODnet project, https://emodnet.ec.europa.eu</MDI>
+        <MDI key="NC_GLOBAL#references">lastest release is DOI: https://doi.org/10.12770/cf51df64-56f9-4a99-b1aa-36b8d7b743a1</MDI>
+        <MDI key="NC_GLOBAL#source">source of the data can be found in the dataset or in the documentation available from  https://emodnet.ec.europa.eu/en/bathymetry</MDI>
+        <MDI key="NC_GLOBAL#title">The EMODnet Grid</MDI>
+        <MDI key="value_count#coordinates">lat lon</MDI>
+        <MDI key="value_count#grid_mapping">crs</MDI>
+        <MDI key="value_count#long_name">Number of values used to compute the resulting elevation over the cell</MDI>
+        <MDI key="value_count#standard_name">number_of_observations</MDI>
+        <MDI key="value_count#valid_range">{0,2147483646}</MDI>
+        <MDI key="value_count#_FillValue">-1</MDI>
+      </Metadata>
+      <Metadata domain="GEOLOCATION">
+        <MDI key="SRS">GEOGCRS["unknown",DATUM["unnamed",ELLIPSOID["Spheroid",6378137,298.257223563,LENGTHUNIT["metre",1,ID["EPSG",9001]]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433,ID["EPSG",9122]]],CS[ellipsoidal,2],AXIS["latitude",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433,ID["EPSG",9122]]],AXIS["longitude",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433,ID["EPSG",9122]]]]</MDI>
+        <MDI key="X_DATASET">NETCDF:"C:\Users\PC\Documents\Ecole\2A\Stage_2A\RISE\Example\Angiosperms-model\D5_2024.nc":lon</MDI>
+        <MDI key="X_BAND">1</MDI>
+        <MDI key="Y_DATASET">NETCDF:"C:\Users\PC\Documents\Ecole\2A\Stage_2A\RISE\Example\Angiosperms-model\D5_2024.nc":lat</MDI>
+        <MDI key="Y_BAND">1</MDI>
+        <MDI key="PIXEL_OFFSET">0</MDI>
+        <MDI key="PIXEL_STEP">1</MDI>
+        <MDI key="LINE_OFFSET">0</MDI>
+        <MDI key="LINE_STEP">1</MDI>
+        <MDI key="GEOREFERENCING_CONVENTION">PIXEL_CENTER</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">0</MDI>
+          <MDI key="STATISTICS_MAXIMUM">7642</MDI>
+          <MDI key="STATISTICS_MEAN">35.363050324491</MDI>
+          <MDI key="STATISTICS_STDDEV">260.14500555556</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+</PAMDataset>
