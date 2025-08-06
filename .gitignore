@@ -5,4 +5,5 @@ BALTICSEA_MULTIYEAR_WAV_003_015/
 *.nc
 *.tif
 *.tiff
+*.csv
 clipped_grid*.geojson
