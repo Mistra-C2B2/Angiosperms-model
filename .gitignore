@@ -1,5 +1,6 @@
 # Folders with large data
 BALTICSEA_MULTIYEAR_WAV_003_015/
+myenv/
 
 # Large geospatial/science files
 *.nc
