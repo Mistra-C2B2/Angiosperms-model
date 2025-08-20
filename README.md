@@ -67,7 +67,7 @@ The **MaxEnt model** operates as a **presence-background model**:
 - **Presence data**: It uses observed occurrences of the species.
 - **Background data**: Instead of using absence data (where the species is not found), MaxEnt uses a random sample of points (the **background samples**) from the landscape where the species could potentially be found. 
 
-The absence data is **not required**, which is why **MaxEnt** is particularly useful when working with **presence-only data** like the one we have for **Zosteraceae**. While this approach reduces data collection requirements, it also presents unique challenges in terms of fitting and interpreting the model.
+The absence data is **not required**, which is why **MaxEnt** is particularly useful when working with **presence-only data** like the one we have for **Zosteraceae**.
 
 For further details on how the MaxEnt model works and how it's implemented in Python, refer to the documentation of the library I used:  
 👉 [**elapid documentation**](https://earth-chris.github.io/elapid/sdm/maxent/)
